@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gugsiuniversity.StudentdetailFXMLController">
+   <children>
+      <Pane layoutX="82.0" layoutY="50.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b5998; -fx-border-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox layoutX="13.0" layoutY="44.0" prefHeight="70.0" prefWidth="100.0" spacing="2.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="85.0" text="First Name" textFill="WHITE" />
+                  <Label prefHeight="17.0" prefWidth="85.0" text="Last Name" textFill="WHITE" />
+                  <Label prefHeight="17.0" prefWidth="85.0" text="Student ID" textFill="WHITE" />
+               </children>
+            </VBox>
+            <VBox layoutX="19.0" layoutY="173.0" prefHeight="143.0" prefWidth="65.0" spacing="2.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="57.0" text="SC 531" textFill="WHITE" />
+                  <Label prefHeight="17.0" prefWidth="57.0" text="SC 535" textFill="WHITE" />
+                  <Label prefHeight="17.0" prefWidth="57.0" text="SC 537" textFill="WHITE" />
+                  <Label prefHeight="17.0" prefWidth="57.0" text="SC 538" textFill="WHITE" />
+                  <Label prefHeight="17.0" prefWidth="57.0" text="SC 539" textFill="WHITE">
+                     <padding>
+                        <Insets top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="lblopt1" prefHeight="17.0" prefWidth="57.0" text="OPT 1" textFill="WHITE" />
+                  <Label fx:id="lblopt2" prefHeight="17.0" prefWidth="57.0" text="OPT 2" textFill="WHITE" />
+                  <Label fx:id="lblopt3" prefHeight="17.0" prefWidth="57.0" text="OPT 3" textFill="WHITE" />
+               </children>
+            </VBox>
+            <VBox layoutX="93.0" layoutY="173.0" prefHeight="152.0" prefWidth="49.0" spacing="2.0">
+               <children>
+                  <Label fx:id="lblcore1marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblcore2marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblcore3marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblcore4marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblcore5marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE">
+                     <padding>
+                        <Insets top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="lblopt1marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblopt2marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblopt3marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+               </children>
+            </VBox>
+            <Label layoutX="14.0" layoutY="141.0" prefHeight="18.0" prefWidth="94.0" text="SEMESTER 1" textFill="#01b83b">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="228.0" layoutY="141.0" prefHeight="18.0" prefWidth="94.0" text="SEMESTER 2" textFill="#01b83b">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <VBox layoutX="305.0" layoutY="173.0" prefHeight="152.0" prefWidth="49.0" spacing="2.0">
+               <children>
+                  <Label fx:id="lblcore6marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblcore7marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblcore8marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblopt4marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblopt5marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE">
+                     <padding>
+                        <Insets top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="lblopt6marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblopt7marks" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+                  <Label fx:id="lblseminar" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+               </children>
+            </VBox>
+            <VBox layoutX="228.0" layoutY="173.0" prefHeight="143.0" prefWidth="65.0" spacing="2.0">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="57.0" text="SC 546" textFill="WHITE" />
+                  <Label prefHeight="17.0" prefWidth="57.0" text="SC 554" textFill="WHITE" />
+                  <Label prefHeight="17.0" prefWidth="57.0" text="SC 555" textFill="WHITE" />
+                  <Label fx:id="lblopt4" prefHeight="17.0" prefWidth="57.0" text="OPT 4" textFill="WHITE" />
+                  <Label fx:id="lblopt5" prefHeight="17.0" prefWidth="57.0" text="OPT 5" textFill="WHITE">
+                     <padding>
+                        <Insets top="2.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="lblopt6" prefHeight="17.0" prefWidth="57.0" text="OPT 6" textFill="WHITE" />
+                  <Label fx:id="lblopt7" prefHeight="17.0" prefWidth="57.0" text="OPT 7" textFill="WHITE" />
+                  <Label prefHeight="17.0" prefWidth="63.0" text="SEMINAR" textFill="WHITE" />
+               </children>
+            </VBox>
+            <Label layoutX="402.0" layoutY="142.0" prefHeight="17.0" prefWidth="85.0" text="PROJECT" textFill="#01b83b">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblprojectResult" layoutX="569.0" layoutY="173.0" prefHeight="17.0" prefWidth="57.0" textFill="WHITE" />
+            <Label fx:id="lblprojectType" layoutX="402.0" layoutY="173.0" prefHeight="17.0" prefWidth="135.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="384.0" prefHeight="20.0" prefWidth="40.0" text="GPA" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblGPA" layoutX="100.0" layoutY="384.0" prefHeight="20.0" prefWidth="85.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="426.0" prefHeight="20.0" prefWidth="63.0" text="DEGREE" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDegreeName" layoutX="93.0" layoutY="426.0" prefHeight="20.0" prefWidth="539.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <VBox layoutX="96.0" layoutY="44.0" prefHeight="70.0" prefWidth="226.0" spacing="2.0">
+               <children>
+                  <Label fx:id="lblfirstname" prefHeight="17.0" prefWidth="210.0" textFill="WHITE" />
+                  <Label fx:id="lbllastname" prefHeight="17.0" prefWidth="224.0" textFill="WHITE" />
+                  <Label fx:id="lblstudentid" prefHeight="17.0" prefWidth="104.0" textFill="WHITE" />
+               </children>
+            </VBox>
+            <Label fx:id="lblDegreeClass" layoutX="93.0" layoutY="466.0" prefHeight="20.0" prefWidth="135.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnSearch" layoutX="554.0" layoutY="72.0" mnemonicParsing="false" onAction="#searchClicked" prefHeight="27.0" prefWidth="67.0" style="-fx-border-color: #ffffff; -fx-background-color: #3b5998;" text="Search" textFill="WHITE" />
+            <TextField fx:id="txtinputstid" layoutX="517.0" layoutY="37.0" prefHeight="27.0" prefWidth="104.0" />
+            <Label layoutX="433.0" layoutY="42.0" prefHeight="18.0" prefWidth="74.0" text="Student ID" textFill="WHITE" />
+            <Label fx:id="errmessage" layoutX="434.0" layoutY="14.0" prefHeight="17.0" prefWidth="146.0" textFill="RED" />
+            <Button fx:id="btnDelete" layoutX="473.0" layoutY="452.0" mnemonicParsing="false" onAction="#DeleteClicked" prefHeight="29.0" prefWidth="153.0" style="-fx-border-color: #ff0000; -fx-background-color: #3b5998;" text="Delete Student" textFill="#f58585" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gugsiuniversity.LoginFXMLController">
+   <children>
+      <Pane layoutX="204.0" layoutY="117.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b5998; -fx-border-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label alignment="TOP_CENTER" contentDisplay="TOP" layoutX="89.0" layoutY="37.0" prefHeight="80.0" prefWidth="472.0" text="Gugsi University of Computer Science" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="140.0" layoutY="184.0" prefHeight="33.0" prefWidth="85.0" text="Username" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="140.0" layoutY="235.0" prefHeight="33.0" prefWidth="85.0" text="Password" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtusername" layoutX="233.0" layoutY="187.0" />
+            <PasswordField fx:id="pfpassword" layoutX="233.0" layoutY="238.0" />
+            <Button fx:id="btnlogin" layoutX="348.0" layoutY="296.0" mnemonicParsing="false" onAction="#loginClicked" style="-fx-background-color: #3b5998; -fx-border-color: #ffffff;" text="Login" textFill="WHITE" />
+            <Label fx:id="lblmessage" layoutX="140.0" layoutY="125.0" prefHeight="27.0" prefWidth="224.0" style="-fx-background-color: #3b5998;" textFill="RED">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

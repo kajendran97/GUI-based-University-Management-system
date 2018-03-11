@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gugsiuniversity.MenuFXMLController">
+   <children>
+      <Pane layoutX="122.0" layoutY="152.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #3b5998; -fx-border-color: #ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="btnAddnew" layoutX="218.0" layoutY="171.0" mnemonicParsing="false" onAction="#addnewClicked" prefHeight="29.0" prefWidth="187.0" style="-fx-border-color: #ff8228; -fx-background-color: #3b5998;" text="Add new Student" textFill="#ff8228" />
+            <Button fx:id="btnSearch" layoutX="218.0" layoutY="236.0" mnemonicParsing="false" onAction="#searchClicked" prefHeight="29.0" prefWidth="187.0" style="-fx-border-color: #01b83b; -fx-background-color: #3b5998;" text="Search Student " textFill="#01b83b" />
+            <Label alignment="TOP_CENTER" contentDisplay="TOP" layoutX="76.0" layoutY="59.0" prefHeight="29.0" prefWidth="472.0" text="Gugsi University of Computer Science" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnLogout" layoutX="540.0" layoutY="450.0" mnemonicParsing="false" onAction="#logoutClicked" prefHeight="29.0" prefWidth="67.0" style="-fx-border-color: #ffffff; -fx-background-color: #3b5998;" text="Logout" textFill="WHITE" />
+            <Button fx:id="btnViewAll" layoutX="218.0" layoutY="350.0" mnemonicParsing="false" onAction="#ViewAllClicked" prefHeight="29.0" prefWidth="187.0" style="-fx-border-color: #5ac8ff; -fx-background-color: #3b5998;" text="View all students" textFill="#5ac8ff" />
+            <Button fx:id="btnEditStudent" layoutX="218.0" layoutY="295.0" mnemonicParsing="false" onAction="#EditStudentClicked" prefHeight="29.0" prefWidth="187.0" style="-fx-border-color: #d6ee24; -fx-background-color: #3b5998;" text="Edit Student" textFill="#d6ee24" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
